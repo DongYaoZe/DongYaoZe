@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="330" viewBox="0 0 1200 330" role="img" aria-labelledby="title desc">
+  <title id="title">yzhaidong profile banner</title>
+  <desc id="desc">A mathematical landscape connecting geometry, quantitative finance, and artificial intelligence.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f8faf7"/>
+      <stop offset="0.56" stop-color="#eef6f2"/>
+      <stop offset="1" stop-color="#fff7ed"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#0f766e"/><stop offset="1" stop-color="#d97706"/>
+    </linearGradient>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
+      <path d="M36 0H0V36" fill="none" stroke="#0f766e" stroke-opacity=".08"/>
+    </pattern>
+    <filter id="glow"><feGaussianBlur stdDeviation="10"/></filter>
+  </defs>
+  <rect width="1200" height="330" rx="22" fill="url(#bg)"/>
+  <rect width="1200" height="330" rx="22" fill="url(#grid)"/>
+  <circle cx="1060" cy="58" r="115" fill="#f59e0b" opacity=".09" filter="url(#glow)"/>
+  <circle cx="113" cy="283" r="125" fill="#0d9488" opacity=".1" filter="url(#glow)"/>
+  <g fill="none" stroke="#0f766e" stroke-opacity=".3">
+    <ellipse cx="1020" cy="166" rx="145" ry="78" transform="rotate(-18 1020 166)"/>
+    <ellipse cx="1020" cy="166" rx="110" ry="52" transform="rotate(24 1020 166)"/>
+    <path d="M870 240c60-95 103-140 165-151 45-8 78 12 119 74"/>
+  </g>
+  <g fill="#0f766e"><circle cx="923" cy="175" r="5"/><circle cx="1020" cy="113" r="5"/><circle cx="1116" cy="169" r="5"/></g>
+  <path d="M60 262C180 244 235 272 337 226s164-15 247-58 142-17 222-81" fill="none" stroke="url(#line)" stroke-width="3"/>
+  <g fill="#d97706"><circle cx="337" cy="226" r="5"/><circle cx="584" cy="168" r="5"/><circle cx="806" cy="87" r="5"/></g>
+  <text x="72" y="118" fill="#0f172a" font-family="Georgia, 'Times New Roman', serif" font-size="61" letter-spacing="1">yzhaidong</text>
+  <rect x="74" y="140" width="92" height="4" rx="2" fill="url(#line)"/>
+  <text x="72" y="184" fill="#334155" font-family="'Segoe UI', sans-serif" font-size="19" letter-spacing="3">MATHEMATICS · QUANT · INTELLIGENCE</text>
+  <text x="73" y="216" fill="#64748b" font-family="'Segoe UI', sans-serif" font-size="15" letter-spacing="1">NANJING UNIVERSITY  /  CLASS OF 2025</text>
+  <text x="874" y="292" fill="#0f766e" font-family="Georgia, serif" font-size="18" font-style="italic">∫ ideas across boundaries</text>
+</svg>
