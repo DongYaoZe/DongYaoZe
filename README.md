@@ -28,10 +28,6 @@
 
 ## `01 / Coordinates` · 关于我
 
-<table>
-<tr>
-<td width="56%" valign="top">
-
 ### 中文
 
 我是 **yzhaidong / 董耀择**，南京大学匡亚明学院 2025 级本科生。
@@ -44,9 +40,6 @@
 - 把课程知识整理成真正能被别人继续使用的材料；
 - 把 AI 当作研究与学习的放大器，而不是黑箱答案机；
 - 在不同学科之间寻找可以迁移的方法、模型与直觉。
-
-</td>
-<td width="44%" valign="top">
 
 ### English
 
@@ -62,10 +55,6 @@ exploration  → natural sciences
 output       → code · notes · books · experiments
 principle    → clarity · reproducibility · openness
 ```
-
-</td>
-</tr>
-</table>
 
 > **Current coordinates:** mathematical foundations · quantitative research · AI systems · open knowledge · interdisciplinary exploration
 
@@ -180,8 +169,16 @@ flowchart LR
 ## `05 / Signals` · GitHub 足迹
 
 <p align="center">
-  <img height="170" src="./assets/github-stats.svg" alt="GitHub statistics">
-  <img height="170" src="./assets/top-langs.svg" alt="Most used languages">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/github-stats-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./assets/github-stats.svg">
+    <img height="170" src="./assets/github-stats.svg" alt="GitHub statistics">
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/top-langs-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./assets/top-langs.svg">
+    <img height="170" src="./assets/top-langs.svg" alt="Most used languages">
+  </picture>
 </p>
 
 <sub>These cards are generated periodically by GitHub Actions and committed back into this repository. The profile no longer depends on the public github-readme-stats Vercel endpoint at page-render time.</sub>
@@ -205,46 +202,24 @@ flowchart LR
 ## `07 / Toolkit` · 工具箱
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=c,cpp,py,ts,latex,git,github,vscode&theme=light&perline=8" alt="C, C++, Python, TypeScript, LaTeX, Git, GitHub and VS Code">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=c,cpp,py,ts,latex,git,github,vscode&theme=dark&perline=8">
+    <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=c,cpp,py,ts,latex,git,github,vscode&theme=light&perline=8">
+    <img src="https://skillicons.dev/icons?i=c,cpp,py,ts,latex,git,github,vscode&theme=light&perline=8" alt="C, C++, Python, TypeScript, LaTeX, Git, GitHub and VS Code">
+  </picture>
 </p>
-
-<table>
-<tr>
-<td width="33%" valign="top">
 
 ### Think
 
-- proof & abstraction
-- modeling
-- numerical reasoning
-- research design
-- cross-disciplinary synthesis
-
-</td>
-<td width="33%" valign="top">
+`proof & abstraction` · `modeling` · `numerical reasoning` · `research design` · `cross-disciplinary synthesis`
 
 ### Build
 
-- Python / C / C++
-- TypeScript
-- LaTeX
-- Git / GitHub
-- automation & agents
-
-</td>
-<td width="33%" valign="top">
+`Python / C / C++` · `TypeScript` · `LaTeX` · `Git / GitHub` · `automation & agents`
 
 ### Ship
 
-- reproducible notes
-- textbook solutions
-- research pipelines
-- visual explanations
-- open educational resources
-
-</td>
-</tr>
-</table>
+`reproducible notes` · `textbook solutions` · `research pipelines` · `visual explanations` · `open educational resources`
 
 ---
 
@@ -264,35 +239,17 @@ flowchart LR
 
 ## `09 / Principles` · 一些长期原则
 
-<table>
-<tr>
-<td width="33%" valign="top">
-
 ### 01 · Inspectability
 
-**Do not optimize for appearing knowledgeable. Optimize for becoming inspectably correct.**
-
-让推导、数据来源、假设和失败路径都能被重新检查。
-
-</td>
-<td width="33%" valign="top">
+**Do not optimize for appearing knowledgeable. Optimize for becoming inspectably correct.** 让推导、数据来源、假设和失败路径都能被重新检查。
 
 ### 02 · Reproducibility
 
-如果一个结论只能存在于某次对话、某台电脑或某个偶然环境里，它还没有真正成为知识。
-
-让别人——也让未来的自己——能够接着做。
-
-</td>
-<td width="33%" valign="top">
+如果一个结论只能存在于某次对话、某台电脑或某个偶然环境里，它还没有真正成为知识。让别人——也让未来的自己——能够接着做。
 
 ### 03 · Connection
 
 跨学科不是把名词堆在一起，而是寻找真正可迁移的结构：线性、随机性、优化、反馈、尺度与信息。
-
-</td>
-</tr>
-</table>
 
 ---
 
