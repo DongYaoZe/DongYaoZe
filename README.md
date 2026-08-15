@@ -203,9 +203,9 @@ flowchart LR
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=c,cpp,py,ts,latex,git,github,vscode&theme=dark&perline=8">
-    <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=c,cpp,py,ts,latex,git,github,vscode&theme=light&perline=8">
-    <img src="https://skillicons.dev/icons?i=c,cpp,py,ts,latex,git,github,vscode&theme=light&perline=8" alt="C, C++, Python, TypeScript, LaTeX, Git, GitHub and VS Code">
+    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=c%2Ccpp%2Cpy%2Cts%2Clatex%2Cgit%2Cgithub%2Cvscode&amp;theme=dark&amp;perline=8">
+    <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=c%2Ccpp%2Cpy%2Cts%2Clatex%2Cgit%2Cgithub%2Cvscode&amp;theme=light&amp;perline=8">
+    <img src="https://skillicons.dev/icons?i=c%2Ccpp%2Cpy%2Cts%2Clatex%2Cgit%2Cgithub%2Cvscode&amp;theme=light&amp;perline=8" alt="C, C++, Python, TypeScript, LaTeX, Git, GitHub and VS Code">
   </picture>
 </p>
 
