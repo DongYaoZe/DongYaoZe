@@ -190,39 +190,13 @@ flowchart LR
 
 ## `06 / Knowledge Map` · 知识地图
 
-```mermaid
-flowchart TD
-    M[Mathematics]:::core
-    LA[Linear Algebra]
-    AN[Analysis]
-    PR[Probability]
-    OP[Optimization]
-    QF[Quantitative Finance]:::quant
-    AI[Artificial Intelligence]:::ai
-    NS[Natural Sciences]:::science
-    OK[Open Knowledge]:::open
-
-    M --> LA
-    M --> AN
-    M --> PR
-    M --> OP
-    LA --> QF
-    PR --> QF
-    OP --> QF
-    LA --> AI
-    PR --> AI
-    OP --> AI
-    M --> NS
-    QF --> OK
-    AI --> OK
-    NS --> OK
-
-    classDef core fill:#0f766e,color:#fff,stroke:#0f766e;
-    classDef quant fill:#b45309,color:#fff,stroke:#b45309;
-    classDef ai fill:#1d4ed8,color:#fff,stroke:#1d4ed8;
-    classDef science fill:#7c3aed,color:#fff,stroke:#7c3aed;
-    classDef open fill:#be123c,color:#fff,stroke:#be123c;
-```
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/knowledge-map-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./assets/knowledge-map-light.svg">
+    <img alt="Knowledge map connecting mathematics, quantitative finance, AI, natural sciences and open knowledge" src="./assets/knowledge-map-light.svg" width="100%">
+  </picture>
+</p>
 
 > 我更关心“这些课程和领域为什么连在一起”，而不只是“我学过哪些课程”。知识地图会随着理解继续重构。
 

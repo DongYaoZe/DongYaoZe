@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="520" viewBox="0 0 1200 520" role="img" aria-labelledby="title desc">
+  <title id="title">Knowledge map</title>
+  <desc id="desc">Mathematics connecting quantitative finance, artificial intelligence, natural sciences, and open knowledge.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f8fafc"/><stop offset="1" stop-color="#fff7ed"/>
+    </linearGradient>
+    <linearGradient id="edge" x1="0" x2="1">
+      <stop offset="0" stop-color="#0f766e"/><stop offset=".5" stop-color="#2563eb"/><stop offset="1" stop-color="#b45309"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#0f172a" flood-opacity=".10"/></filter>
+  </defs>
+  <rect width="1200" height="520" rx="24" fill="url(#bg)"/>
+  <g stroke="#94a3b8" stroke-width="2" opacity=".58" fill="none">
+    <path d="M600 92L224 210M600 92L430 210M600 92L770 210M600 92L976 210"/>
+    <path d="M224 260L330 365M430 260L330 365M430 260L600 365M770 260L600 365M770 260L870 365M976 260L870 365"/>
+    <path d="M330 415L600 470M600 415L600 470M870 415L600 470"/>
+  </g>
+  <path d="M224 210C390 125 810 125 976 210" fill="none" stroke="url(#edge)" stroke-width="3" opacity=".22"/>
+
+  <g filter="url(#shadow)" font-family="Inter,Segoe UI,Arial,sans-serif" text-anchor="middle">
+    <g><rect x="470" y="46" width="260" height="76" rx="18" fill="#0f766e"/><text x="600" y="78" font-size="22" font-weight="700" fill="#fff">MATHEMATICS</text><text x="600" y="102" font-size="13" fill="#ccfbf1">common language / foundation</text></g>
+
+    <g><rect x="120" y="198" width="208" height="72" rx="16" fill="#fff" stroke="#99f6e4"/><text x="224" y="228" font-size="18" font-weight="650" fill="#0f172a">Linear Algebra</text><text x="224" y="250" font-size="12" fill="#64748b">space · operators · structure</text></g>
+    <g><rect x="326" y="198" width="208" height="72" rx="16" fill="#fff" stroke="#bae6fd"/><text x="430" y="228" font-size="18" font-weight="650" fill="#0f172a">Probability</text><text x="430" y="250" font-size="12" fill="#64748b">uncertainty · inference</text></g>
+    <g><rect x="666" y="198" width="208" height="72" rx="16" fill="#fff" stroke="#bfdbfe"/><text x="770" y="228" font-size="18" font-weight="650" fill="#0f172a">Optimization</text><text x="770" y="250" font-size="12" fill="#64748b">objectives · constraints</text></g>
+    <g><rect x="872" y="198" width="208" height="72" rx="16" fill="#fff" stroke="#fed7aa"/><text x="976" y="228" font-size="18" font-weight="650" fill="#0f172a">Analysis</text><text x="976" y="250" font-size="12" fill="#64748b">limits · continuity · dynamics</text></g>
+
+    <g><rect x="210" y="352" width="240" height="72" rx="18" fill="#b45309"/><text x="330" y="382" font-size="19" font-weight="700" fill="#fff">QUANT FINANCE</text><text x="330" y="404" font-size="12" fill="#ffedd5">data · model · market · risk</text></g>
+    <g><rect x="480" y="352" width="240" height="72" rx="18" fill="#1d4ed8"/><text x="600" y="382" font-size="19" font-weight="700" fill="#fff">ARTIFICIAL INTELLIGENCE</text><text x="600" y="404" font-size="12" fill="#dbeafe">agents · search · tools · learning</text></g>
+    <g><rect x="750" y="352" width="240" height="72" rx="18" fill="#7c3aed"/><text x="870" y="382" font-size="19" font-weight="700" fill="#fff">NATURAL SCIENCES</text><text x="870" y="404" font-size="12" fill="#ede9fe">physics · chemistry · biology</text></g>
+
+    <g><rect x="430" y="452" width="340" height="52" rx="16" fill="#be123c"/><text x="600" y="476" font-size="18" font-weight="700" fill="#fff">OPEN KNOWLEDGE</text><text x="600" y="495" font-size="11" fill="#ffe4e6">notes · books · code · experiments · visual explanations</text></g>
+  </g>
+
+  <text x="34" y="44" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="13" fill="#64748b">KNOWLEDGE GRAPH / v∞</text>
+</svg>
