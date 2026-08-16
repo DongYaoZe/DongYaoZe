@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
-  <title id="title">Dong Yaoze profile banner</title>
+  <title id="title">yzhaidong profile banner</title>
   <desc id="desc">Mathematics, quantitative finance, artificial intelligence and interdisciplinary learning.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
@@ -47,9 +47,8 @@
     <text x="786" y="326">∫ structure dμ</text>
   </g>
 
-  <text x="72" y="104" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="20" letter-spacing="5" fill="#5eead4">DONG YAOZE · YZHAIDONG</text>
+  <text x="72" y="104" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="20" letter-spacing="5" fill="#5eead4">YZHAIDONG · NANJING UNIVERSITY</text>
   <text x="68" y="174" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="56" font-weight="700" fill="#f8fafc">Mathematics × Quant × AI</text>
   <text x="72" y="218" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="19" fill="#cbd5e1">polymath in progress · learning across boundaries · building in public</text>
-  <rect x="72" y="250" width="356" height="5" rx="2.5" fill="url(#accent)"/>
   <text x="72" y="304" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="15" fill="#94a3b8">proof → model → code → test → explain → publish</text>
 </svg>
