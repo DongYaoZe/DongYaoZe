@@ -62,17 +62,9 @@
 
 ## `03 / Research OS` · 研究流程
 
-```mermaid
-flowchart LR
-    A[Question] --> B[Formalize]
-    B --> C[Read / Search]
-    C --> D[Model]
-    D --> E[Implement]
-    E --> F[Test]
-    F --> G[Explain]
-    G --> H[Publish]
-    H -. new questions .-> A
-```
+<p align="center">
+  <code>Question</code> → <code>Formalize</code> → <code>Read / Search</code> → <code>Model</code> → <code>Implement</code> → <code>Test</code> → <code>Explain</code> → <code>Publish</code>
+</p>
 
 ---
 
